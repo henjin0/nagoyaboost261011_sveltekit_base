@@ -1,10 +1,10 @@
 <script>
-    // ★1 $lib/components/Panel5.svelteからPanel5という名前でコンポーネントをimportする
+    // ★1 #lib/components/Panel5.svelteからPanel5という名前でコンポーネントをimportする
     // ヒント：importの後のaaaaaを変更する
-    import Panel5 from '$lib/components/Panel5.svelte';
-    // ★2 $lib/components/Panel6.svelteからPanel6という名前でコンポーネントをimportする
+    import Panel5 from '#lib/components/Panel5.svelte';
+    // ★2 #lib/components/Panel6.svelteからPanel6という名前でコンポーネントをimportする
     // ヒント：importの後のbbbbbを変更する
-    import Panel6 from '$lib/components/Panel6.svelte';
+    import Panel6 from '#lib/components/Panel6.svelte';
 </script>
 
 <div class="app-container">
