@@ -1,5 +1,5 @@
 <script>
-  import { number1, number2 } from '$lib/stores/calcState';
+  import { number1, number2 } from '#lib/stores/calcState';
   
   let result = $derived($number1 + $number2);
 </script>
