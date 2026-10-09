@@ -1,5 +1,5 @@
 <script>
-    import { gameStatus, revealedCells } from '$lib/stores/resultState';
+    import { gameStatus, revealedCells } from '#lib/stores/resultState';
 </script>
 
 <div class="right-panel">    

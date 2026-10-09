@@ -1,6 +1,6 @@
 <script>
     import { onMount } from 'svelte';
-    import { gameStatus, revealedCells } from '$lib/stores/resultState';
+    import { gameStatus, revealedCells } from '#lib/stores/resultState';
 
     let rows = 8;
     let cols = 8;
